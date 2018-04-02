@@ -1,0 +1,14 @@
+### Save Data Path (mysql redis mongo...)
+DATA_SAVE_PATH=../data
+
+### MYSQL Container
+MYSQL_DATABASE=wordpress
+MYSQL_USER=default
+MYSQL_PASSWORD=secret
+MYSQL_PORT=3306
+MYSQL_ROOT_PASSWORD=root
+
+### Wordpress Container
+WORDPRESS_DB_HOST=3306
+WORDPRESS_DB_USER=default
+WORDPRESS_DB_PASSWORD=secret
